@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <script src="https://kit.fontawesome.com/e577b103f1.js" crossorigin="anonymous"></script>
+    <title>Bröloppsfotografen</title>
+</head>
+<body>
+    <!-- Photo Section -->
+    <section id="photo-section">
+        <header id="photo-header">
+            <h1>Bröllopsfotografen</h1>
+            <a class="gallery-icon">
+                <span class="layer layer--primary">
+                    <span></span>
+                </span>
+                <span class="layer layer--secondary">
+                    <span></span>
+                </span>
+                <span class="layer layer--tertiary">
+                    <span></span>
+                </span>
+            </a>
+        </header>
+
+        <div id="photo-container">
+            <video src="" id="camera" autoplay></video>
+            <button id="take-picture">Föreviga ett ögonblick</button>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery-section">
+        <header>
+            <h1>Galleri</h1>
+            <span id="photo-icon"></span>
+        </header>
+        <div id="gallery-images"></div>
+    </section>
+
+    <!-- Taken-Photo Section -->
+    <section id="taken-photo-section">
+        <header>
+            <h1>Bröllopsfotografen</h1>
+        </header>
+        <canvas id="picture"></canvas>
+        <button id="new-picture">Fånga ett nytt ögonblick</button>
+    </section>
+    
+    <!-- Loader Section -->
+    <div class="loader-wrapper">
+    <div class="chaotic-orbit"></div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
